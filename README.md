@@ -1,7 +1,7 @@
 # Surfs_Up
 Use SQLAlchemy to connect to and query a SQLite database. Design a Flask Application
 ## Project Purpose
-We have a business venture idea to open up a Surf 'n Shake shop that will serve ice cream and sell surfboards to locals and toursists in Hawaii. We need investor backing to start this venture. We've come up with our business proposal but our investor is concerned about the weather and we need to run analytics on a weather dataset from SQLite for our business meeting. 
+We have a business venture idea to open up a Surf 'n Shake shop that will serve ice cream and sell surfboards to locals and toursists in Hawaii. We need investor backing to start this venture. We've come up with our business proposal but our investor is concerned about the weather (mainly levels of precipitation) and we need to run analytics on a weather dataset from SQLite for our business meeting. There should be just enough precipitation for a green environment, but not so much that the amount of rain hampers business by ruining ideal surf and ice cream weather. 
 
 ## Goals
 * Use SQLAlchemy to connect to and query a SQLite database
