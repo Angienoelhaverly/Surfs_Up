@@ -19,3 +19,5 @@ SQLite is a version of SQL that lives on a computer or phone (local) so it's sma
 * Perform Exploratory Climate Analysis
 * Determine the Summary Statistics for June
 * Determine the Summary Statistics for December
+
+https://stackoverflow.com/questions/11616260/how-to-get-all-objects-with-a-date-that-fall-in-a-specific-month-sqlalchemy/31641488
