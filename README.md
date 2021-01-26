@@ -12,7 +12,7 @@ The analysis will focus on the temperature and rainfall for the past 7 years fro
 * Design a Flask application using data.
 
 ### Resources
-* SQLite: SQLite is a version of SQL that lives on a computer or phone (local) so it's smaller, faster, and doesn't have users. SQLite is the most widely used database engine in the world. It is used in smart phones, computers, and applciations like ITunes and Photoshop. Local databases support quick testing and prototyping. So SQLite helps turn things around more quickly. 
+* SQLite: SQLite is a version of SQL that lives on a computer or phone (local) so it's smaller, faster, and doesn't have users. SQLite is the most widely used database engine in the world. It is used in smart phones, computers, and applciations like ITunes and Photoshop.  
     * [Hawaii Weather Dataset (SQL File)](https://github.com/Angienoelhaverly/Surfs_Up/blob/main/hawaii2.sqlite)
 * SQLAlchemy: SQLAlchemy is a query tool designed for SQLite and the integration of statistical analysis with dataframe analysis. 
     * [SQLAlchemy queries (Jupyter Notebook File)](https://github.com/Angienoelhaverly/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb)
@@ -27,7 +27,7 @@ The analysis will focus on the temperature and rainfall for the past 7 years fro
 * Determine the Summary Statistics for December
 
 ## Results
-First we had to write two queries that filtered our data on the measurement tables in our database to retrieve temperatures for the months of June and December over a ten year period. After getting these filters, we could then convert the temperatures to a list, create a dataframe out of the list, and then run summary statistics on the dataframe using a pandas function. After running a statistical analysis query on the database (df.describe) and filtering for temperatures in June and December over the last ten years, our descriptive statistic results can be found below. 
+To perform our analysis, we wrote two queries that filtered our data on the measurement tables in our database to retrieve temperatures for the months of June and December over a ten year period. After getting these filters, we could then convert the temperatures to a list, create a dataframe out of the list, and then run summary statistics on the dataframe using a pandas function. After running a statistical analysis query on the database (df.describe) and filtering for temperatures in June and December over the last ten years, our descriptive statistic results can be found below. 
 
 ### *June Temperature Observations* 
 * In June there are 1,700 records: the highest temperature recorded was 85 degrees and never went below 64 degrees. Temperatures in June seem to stay mainly in the 70s and the average temperature in June is 74.94 degrees.
