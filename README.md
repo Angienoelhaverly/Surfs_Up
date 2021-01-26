@@ -22,6 +22,9 @@ SQLite is a version of SQL that lives on a computer or phone (local) so it's sma
 * Determine the Summary Statistics for December
 
 ## Results
+* In June there are 1,700 records: the highest temperature recorded was 85 degrees and never went below 64 degrees. Temperatures in June seem to stay mainly in the 70s and the average temperature in June is 74.94 degrees.
+*
+
 ## Summary - High Level Overview
 
 https://stackoverflow.com/questions/11616260/how-to-get-all-objects-with-a-date-that-fall-in-a-specific-month-sqlalchemy/31641488
