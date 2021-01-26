@@ -36,7 +36,10 @@ First we had to write two queries that filtered our data on the measurement tabl
 ![dec stats](https://user-images.githubusercontent.com/73972332/105802438-07558680-5f50-11eb-8363-7da9e5db6b64.png)
 
 ## Summary - High Level Overview
-* idea for other tables: same thing but for rain over the years
+We can use the same procedure to compare the amount of rain (in inches) over the years as we did for temperature. Below are two additional queries that filter the precipitation levels for the months of June and December (focused on finding the summary statistics for each).  
+
+![june precip](https://user-images.githubusercontent.com/73972332/105912155-e50b4980-5fdf-11eb-96d3-eb52d9af031e.png)
+![dec precip](https://user-images.githubusercontent.com/73972332/105912195-f3596580-5fdf-11eb-8023-603b4d540616.png)
 * box whisker plot to find outliers
 
 https://stackoverflow.com/questions/11616260/how-to-get-all-objects-with-a-date-that-fall-in-a-specific-month-sqlalchemy/31641488
