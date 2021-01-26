@@ -7,27 +7,27 @@ We have a business venture idea to open up a Surf 'n Shake shop that will serve 
 The analysis will focus on the temperature and rainfall for the past 7 years from 2010 to 2017, specifically for June and December, the two months that are apart enough to ensure that we have a good condition year-round. In order to have enough data, we analyze data from six weather stations in Oahu, Hawaii. 
 
 ### Goals
-* Use SQLAlchemy to connect to and query a SQLite database
+* Use **SQLAlchemy** to connect to and query a **SQLite database**
 * Use statistics like minimum, maximum, and average to analyze data.
-* Design a Flask application using data.
+* Design a **Flask** application to highlight results for investors
 
 ### Resources
-* SQLite: SQLite is a version of SQL that lives on a computer or phone (local) so it's smaller, faster, and doesn't have users. SQLite is the most widely used database engine in the world. It is used in smart phones, computers, and applciations like ITunes and Photoshop.  
+* **SQLite:** a version of SQL that lives on a computer or phone (local) so it's smaller, faster, and doesn't have users. SQLite is the most widely used database engine in the world. It is used in smart phones, computers, and applciations like ITunes and Photoshop.  
     * [Hawaii Weather Dataset (SQL File)](https://github.com/Angienoelhaverly/Surfs_Up/blob/main/hawaii2.sqlite)
-* SQLAlchemy: SQLAlchemy is a query tool designed for SQLite and the integration of statistical analysis with dataframe analysis. 
+* **SQLAlchemy:** a query tool designed for SQLite and the integration of statistical analysis with dataframe analysis. 
     * [SQLAlchemy queries (Jupyter Notebook File)](https://github.com/Angienoelhaverly/Surfs_Up/blob/main/SurfsUp_Challenge.ipynb)
-* Flask: To share our analysis with investors, we used Flask which is a webframework that uses Python to build web pages allowing us to share our findings in real time. Building a quick Flask website to display the data works well for investors because they are less interested in the code and more interested in what weather trends the code tells us. 
+* **Flask:** a webframework that uses Python to build web pages allowing us to share our findings in real time. Building a quick Flask website to display the data is better suited for investors because they are less interested in the actual code as opposed to understanding the general weather trends we gain from the code. 
     * [Flask Visualization for Investors (Python File)](https://github.com/Angienoelhaverly/Surfs_Up/blob/main/app.py)
 
 ## Implementation Overview
 ### Code Objectives 
 * Reflect Tables into SQLAlchemy ORM
-* Perform Exploratory Climate Analysis
-* Determine the Summary Statistics for June
-* Determine the Summary Statistics for December
+    * To perform our analysis, we wrote two **queries** that filtered our data on the measurement tables in our database to retrieve temperatures for the months of June and December over a ten year period. After getting these filters, we could then convert the temperatures to a **list** and create a **dataframe** out of the list. 
+* Determine the Summary Statistics for June and December
+    * Once we have a dataframe object, we can then run summary statistics on the dataframe using the **pandas function, df.describe**. 
 
 ## Results
-To perform our analysis, we wrote two queries that filtered our data on the measurement tables in our database to retrieve temperatures for the months of June and December over a ten year period. After getting these filters, we could then convert the temperatures to a list, create a dataframe out of the list, and then run summary statistics on the dataframe using a pandas function. After running a statistical analysis query on the database (df.describe) and filtering for temperatures in June and December over the last ten years, our descriptive statistic results can be found below. 
+After running a statistical analysis query on the database and filtering for temperatures in June and December over the last ten years, our descriptive statistic results can be found below. 
 
 ### *June Temperature Observations* 
 * In June there are 1,700 records: the highest temperature recorded was 85 degrees and never went below 64 degrees. Temperatures in June seem to stay mainly in the 70s and the average temperature in June is 74.94 degrees.
