@@ -14,7 +14,8 @@ We have a business venture idea to open up a Surf 'n Shake shop that will serve 
 ### Why SQLite
 SQLite is a version of SQL that lives on a computer or phone (local) so it's smaller, faster, and doesn't have users. SQLite is the most widely used database engine in the world. It is used in smart phones, computers, and applciations like ITunes and Photoshop. Local databases support quick testing and prototyping. So SQLite helps turn things around more quickly. SQLAlchemy is a query tool designed for SQLite and the integration of statistical analysis with dataframe analysis. To share our analysis, we will use Flask which is a webframework that uses Python to build web pages allowing us to share our findings in real time. All SQLite databases are flat files, which means that they don't have relationships that connect the data to anything else. As a result, flat files can be stored locally, which will help us move more quickly through the analysis.
 
-## Code Objectives 
+## Implementation Overview
+### Code Objectives 
 * Reflect Tables into SQLAlchemy ORM
 * Perform Exploratory Climate Analysis
 * Determine the Summary Statistics for June
