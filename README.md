@@ -41,6 +41,8 @@ To perform our analysis, we wrote two queries that filtered our data on the meas
 ### Month to Month Outliers
 We can easily chart a quick box plot to graphically see the differences between the two months and easily identify if there are any outliers. Examining the box plot below, we see that December clearly has some colder days and more outliers than June does, so between the two months, June would be more ideal for our business operations. This makes sense given that December's standard deviation is 3.75 while June's standard deviation is only 3.25. But the positive news is that the two months average temperatures (between the 25th and 75th quartiles) all fall between 86 and 65 degrees Farenheit. The ideal surfing/ice cream weather! 
 
+![Oahu_tobs](https://user-images.githubusercontent.com/73972332/105916568-f6575480-5fe5-11eb-972a-636eca882ef1.png)
+
 ## Summary - High Level Overview
 
 ### Hawaii is a great location 
@@ -51,6 +53,7 @@ We can use the same procedure to compare the amount of rain (in inches) over the
 
 #### *June Precipitation Observations* 
 * Overall, June in Hawaii sees a max rainful of 4.43 inches with an average daily amount of .136 inches while 25% of the time, there is no rain at all. 
+
 ![june precip](https://user-images.githubusercontent.com/73972332/105912155-e50b4980-5fdf-11eb-96d3-eb52d9af031e.png)
 
 #### *December Precipitation Observations* 
