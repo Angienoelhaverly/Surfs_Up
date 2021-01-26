@@ -47,9 +47,11 @@ After running our weather analysis, we conclude that Oahu, Hawaii would be the p
 We can use the same procedure to compare the amount of rain (in inches) over the years as we did for temperature. Below are two additional queries that filter the precipitation levels for the months of June and December (focused on finding the summary statistics for each).  
 
 #### *June Precipitation Observations* 
+* Overall, June in Hawaii sees a max rainful of 4.43 inches with an average daily amount of .136 inches while 25% of the time, there is no rain at all. 
 ![june precip](https://user-images.githubusercontent.com/73972332/105912155-e50b4980-5fdf-11eb-96d3-eb52d9af031e.png)
 
 #### *December Precipitation Observations* 
+* Overall, December in Hawaii sees a max rainful of 6.42 inches with an average daily amount of .217 inches while 25% of the time, there is no rain at all.  
 ![dec precip](https://user-images.githubusercontent.com/73972332/105912195-f3596580-5fdf-11eb-8023-603b4d540616.png)
 
 * box whisker plot to find outliers
