@@ -22,7 +22,7 @@ SQLite is a version of SQL that lives on a computer or phone (local) so it's sma
 * Determine the Summary Statistics for December
 
 ## Results
-After running a statistical analysis query on the database (df.describe) and filtering for temperatures in June and December over the last ten years, our descriptive statistic results can be found below. 
+First we had to write two queries that filtered our data on the measurement tables in our database to retrieve temperatures for the months of June and December over a ten year period. After getting these filters, we could then convert the temperatures to a list, create a dataframe out of the list, and then run summary statistics on the dataframe using a pandas function. After running a statistical analysis query on the database (df.describe) and filtering for temperatures in June and December over the last ten years, our descriptive statistic results can be found below. 
 * In June there are 1,700 records: the highest temperature recorded was 85 degrees and never went below 64 degrees. Temperatures in June seem to stay mainly in the 70s and the average temperature in June is 74.94 degrees.
 
 ![june temp stats](https://user-images.githubusercontent.com/73972332/105802442-0886b380-5f50-11eb-9478-d5e6e8874c0c.png)
