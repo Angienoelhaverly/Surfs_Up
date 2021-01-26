@@ -33,5 +33,7 @@ First we had to write two queries that filtered our data on the measurement tabl
 ![dec stats](https://user-images.githubusercontent.com/73972332/105802438-07558680-5f50-11eb-8363-7da9e5db6b64.png)
 
 ## Summary - High Level Overview
+* idea for other tables: same thing but for rain over the years
+* box whisker plot to find outliers
 
 https://stackoverflow.com/questions/11616260/how-to-get-all-objects-with-a-date-that-fall-in-a-specific-month-sqlalchemy/31641488
