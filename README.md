@@ -38,14 +38,14 @@ To perform our analysis, we wrote two queries that filtered our data on the meas
 
 ![dec stats](https://user-images.githubusercontent.com/73972332/105802438-07558680-5f50-11eb-8363-7da9e5db6b64.png)
 
-### Month to Month Outliers
-We can easily chart a quick box plot to graphically see the differences between the two months and easily identify if there are any outliers. Examining the box plot below, we see that December clearly has some colder days and more outliers than June does, so between the two months, June would be more ideal for our business operations. This makes sense given that December's standard deviation is 3.75 while June's standard deviation is only 3.25. But the positive news is that the two months average temperatures (between the 25th and 75th quartiles) all fall between 86 and 65 degrees Farenheit. The ideal surfing/ice cream weather! 
+### *Month to Month Outliers* 
+We can easily chart a box plot to graphically see the differences between the two months and identify if there are any outliers. Examining the box plot below, we see that December clearly has some colder days and more outliers than June does. So between the two months, June would be more ideal for our business operations. This makes sense given that December's standard deviation is 3.75 while June's standard deviation is only 3.25. But the positive news is that the two months average temperatures (between the 25th and 75th quartiles) all fall between 86 and 65 degrees Farenheit. The ideal surfing/ice cream weather! 
 
 ![Oahu_tobs](https://user-images.githubusercontent.com/73972332/105916568-f6575480-5fe5-11eb-972a-636eca882ef1.png)
 
 ## Summary - High Level Overview
 
-### Hawaii is a great location 
+### Hawaii is a great location!
 After running our weather analysis, we conclude that Oahu, Hawaii would be the perfect location for a Surf n Ice Cream Shake Shack. Overall, the temperature on Oahu remains consistent at a comfortable range of 65°F to 85°F year-round. Based on temperature, Oahu would be an ideal location to open up a surf and shake shack. Below we can see that even with some rain, it would not be enough to hamper our ideal surf and ice cream weather. 
 
 ### Additional Queries
