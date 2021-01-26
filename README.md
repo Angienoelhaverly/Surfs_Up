@@ -22,9 +22,10 @@ The analysis will focus on the temperature and rainfall for the past 7 years fro
 ## Implementation Overview
 ### Code Objectives 
 * Reflect Tables into SQLAlchemy ORM
-    * To perform our analysis, we wrote two **queries** that filtered our data on the measurement tables in our database to retrieve temperatures for the months of June and December over a ten year period. After getting these filters, we could then convert the temperatures to a **list** and create a **dataframe** out of the list. 
+    * To perform our analysis, we wrote two **queries** that filtered our data on the measurement tables in our database to retrieve temperatures for the months of June and December over a ten year period. 
+    * After getting these filters, we could then convert the temperatures to a **list** and create a **dataframe** out of the list. 
 * Determine the Summary Statistics for June and December
-    * Once we have a dataframe object, we can then run summary statistics on the dataframe using the **pandas function, df.describe**. 
+    * Once we have a dataframe object, we can then run summary statistics on the dataframe using the **pandas function: df.describe**. 
 
 ## Results
 After running a statistical analysis query on the database and filtering for temperatures in June and December over the last ten years, our descriptive statistic results can be found below. 
@@ -39,7 +40,7 @@ After running a statistical analysis query on the database and filtering for tem
 ![dec stats](https://user-images.githubusercontent.com/73972332/105802438-07558680-5f50-11eb-8363-7da9e5db6b64.png)
 
 ### *Month to Month Outliers* 
-We can easily chart a box plot to graphically see the differences between the two months and identify if there are any outliers. Examining the box plot below, we see that December clearly has some colder days and more outliers than June does. So between the two months, June would be more ideal for our business operations. This makes sense given that December's standard deviation is 3.75 while June's standard deviation is only 3.25. But the positive news is that the two months average temperatures (between the 25th and 75th quartiles) all fall between 86 and 65 degrees Farenheit. The ideal surfing/ice cream weather! 
+We can easily chart a **box plot** to graphically see the differences between the two months and identify if there are any outliers. We plot this using python's **matplotlib library.** Examining the box plot below, we see that December clearly has some colder days and more outliers than June does. So between the two months, June would be more ideal for our business operations. This makes sense given that December's standard deviation is 3.75 while June's standard deviation is only 3.25. But the positive news is that the two months average temperatures (between the 25th and 75th quartiles) all fall between 86 and 65 degrees Farenheit. The ideal surfing/ice cream weather! 
 
 ![Oahu_tobs](https://user-images.githubusercontent.com/73972332/105916568-f6575480-5fe5-11eb-972a-636eca882ef1.png)
 
