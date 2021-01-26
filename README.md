@@ -25,7 +25,7 @@ SQLite is a version of SQL that lives on a computer or phone (local) so it's sma
 * In June there are 1,700 records: the highest temperature recorded was 85 degrees and never went below 64 degrees. Temperatures in June seem to stay mainly in the 70s and the average temperature in June is 74.94 degrees.
 
 ![june temp stats](https://user-images.githubusercontent.com/73972332/105802442-0886b380-5f50-11eb-9478-d5e6e8874c0c.png)
-*
+* In December there are 1,517 records: the highest temperature recorded was 83 degrees and the lowest temperature reached 56. Temperatures in June December get a little colder than June but only by about 10 degrees and still tend to to stay mainly in the very low 70s with the average temperature at 71.
 
 ![dec stats](https://user-images.githubusercontent.com/73972332/105802438-07558680-5f50-11eb-8363-7da9e5db6b64.png)
 
