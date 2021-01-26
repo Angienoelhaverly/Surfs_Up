@@ -14,7 +14,7 @@ The analysis will focus on the temperature and rainfall for the past 7 years fro
 ### Tools & Languages Used
 * SQLite: SQLite is a version of SQL that lives on a computer or phone (local) so it's smaller, faster, and doesn't have users. SQLite is the most widely used database engine in the world. It is used in smart phones, computers, and applciations like ITunes and Photoshop. Local databases support quick testing and prototyping. So SQLite helps turn things around more quickly. 
 * SQLAlchemy: SQLAlchemy is a query tool designed for SQLite and the integration of statistical analysis with dataframe analysis. 
-* Flask: To share our analysis, we will use Flask which is a webframework that uses Python to build web pages allowing us to share our findings in real time. 
+* Flask: To share our analysis with investors, we used Flask which is a webframework that uses Python to build web pages allowing us to share our findings in real time. Building a quick Flask website to display the data works well for investors because they are less interested in the code and more interested in what weather trends the code tells us. 
 
 ## Implementation Overview
 ### Code Objectives 
