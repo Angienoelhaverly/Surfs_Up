@@ -37,6 +37,9 @@ First we had to write two queries that filtered our data on the measurement tabl
 
 ## Summary - High Level Overview
 
+### Hawaii is a great location 
+After running our weather analysis, we conclude that Oahu, Hawaii would be the perfect location for a Surf n Ice Cream Shake Shack. Overall, the temperature on Oahu remains consistent at a comfortable range of 65°F to 85°F year-round. Based on temperature, Oahu would be an ideal location to open up a surf and shake shack. Below we can see that even with some rain, it would not be enough to hamper our ideal surf and ice cream weather. 
+
 ### Additional Queries
 We can use the same procedure to compare the amount of rain (in inches) over the years as we did for temperature. Below are two additional queries that filter the precipitation levels for the months of June and December (focused on finding the summary statistics for each).  
 
